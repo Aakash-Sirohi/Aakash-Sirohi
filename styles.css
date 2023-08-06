@@ -1,0 +1,68 @@
+.entry {
+    background: wheat;
+    align-self:flex-end;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Hide the horizontal scrollbar */
+}
+
+.body {
+    background-color: rgb(0, 0, 0);
+}
+
+.typing-effect {
+    color: rgb(19, 223, 19);
+    text-align: center;
+    font-weight: 500;
+    font-size: xx-large;
+}
+.school-typing-effect {
+    color: rgb(19, 223, 19);
+    text-align: center;
+    font-weight: 500;
+    font-size: xx-large;
+}
+
+.beautiful-line{
+    color: rgb(19, 223, 19);
+}
+
+.school-info{
+    
+}
+.map {
+    
+    max-width: 50vw; /* Set the maximum width to 50% of the viewport width */
+    height:100vh; /* Set the height to 100% of the viewport height to cover the full screen vertically */
+    float: left; /* Make the div float to the left side */
+    background-color: lightgray; /* Just for visualization, you can remove this */
+    background-color: black;
+}
+
+.map img {
+    padding-top: 0px;
+    padding-left: 50px;
+}
+
+.my-info{
+    max-width: 50vw;
+    float: right;
+    width: 50%;
+    border-style: solid;
+    border-color: rgb(19, 223, 19);
+    margin-right: auto;
+    border-spacing: 10px;
+}
+
+.school-info{
+    max-width: 50vw;
+    float: right;
+    width: 50%;
+    border-style: solid;
+    border-color: rgb(19, 223, 19);
+    margin-right: auto;
+    border-spacing: 10px;
+}
