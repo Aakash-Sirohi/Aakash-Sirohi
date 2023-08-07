@@ -10,20 +10,28 @@ body, html {
 }
 
 .body {
+    display: flex;
+    flex-direction: column;
     background-color: rgb(0, 0, 0);
 }
 
 .typing-effect {
     color: rgb(19, 223, 19);
     text-align: center;
-    font-weight: 500;
-    font-size: xx-large;
+    font-weight: 400;
+    font-size: x-large;
 }
 .school-typing-effect {
     color: rgb(19, 223, 19);
     text-align: center;
-    font-weight: 500;
-    font-size: xx-large;
+    font-weight: 400;
+    font-size: x-large;
+}
+.college-typing-effect {
+    color: rgb(19, 223, 19);
+    text-align: center;
+    font-weight: 400;
+    font-size: x-large;
 }
 
 .beautiful-line{
@@ -33,36 +41,61 @@ body, html {
 .school-info{
     
 }
-.map {
-    
+.container{
+    flex: 1;
+    display: flex;
+}
+.map-div {
+    max-height: 100vh;
     max-width: 50vw; /* Set the maximum width to 50% of the viewport width */
     height:100vh; /* Set the height to 100% of the viewport height to cover the full screen vertically */
-    float: left; /* Make the div float to the left side */
-    background-color: lightgray; /* Just for visualization, you can remove this */
-    background-color: black;
+    flex: 1;
+    background-color: rgb(0, 0, 0); /* Just for visualization, you can remove this */
+    
+}
+.map{
+    max-height: 100vh;
+    
 }
 
-.map img {
-    padding-top: 0px;
-    padding-left: 50px;
+.map-holder{
+    max-height: 100vh;
+}
+
+.info-div{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    max-width: 50vw;
+  
 }
 
 .my-info{
-    max-width: 50vw;
-    float: right;
-    width: 50%;
-    border-style: solid;
-    border-color: rgb(19, 223, 19);
-    margin-right: auto;
-    border-spacing: 10px;
+    flex:1;
+    
+    margin: auto;
+}
+.school-info {
+    flex:1;
+    
+    margin: auto;
+}
+.college-info {
+    flex:1;
 }
 
-.school-info{
-    max-width: 50vw;
-    float: right;
-    width: 50%;
-    border-style: solid;
-    border-color: rgb(19, 223, 19);
-    margin-right: auto;
-    border-spacing: 10px;
+.skill-container{
+    flex: 1;
+    display: flex;
 }
+.skills{
+    flex: 1;
+}
+
+.skill-text{
+    color: rgb(19, 223, 19);
+    text-align: center;
+    font-weight: 400;
+    font-size: x-large;
+}
+

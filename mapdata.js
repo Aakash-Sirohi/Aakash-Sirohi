@@ -1,7 +1,8 @@
 var simplemaps_countrymap_mapdata={
   main_settings: {
    //General settings
-    width: "700", //'700' or 'responsive'
+    width: 'responsive', //'700' or 'responsive'
+    innerHeight: 'responsive',
     background_color: "#FFFFFF",
     background_transparent: "yes",
     border_color: "#21ff00",
@@ -168,7 +169,7 @@ var simplemaps_countrymap_mapdata={
     },
     "34": {
       name: "Uttaranchal",
-      
+      color: "#000000"
     },
     "35": {
       name: "West Bengal"
@@ -198,6 +199,13 @@ var simplemaps_countrymap_mapdata={
       name:"Ryan International School",
       color:"#21ff00",
       description: "Ghaziabad"
+    },
+    "2":{
+      lat: "30.4155286",
+      lng: "77.9660881",
+      name: "University Of Petroleum and Energy Studies",
+      color:"#21ff00",
+      description: "Dehradun" ,
     }
     
   },
