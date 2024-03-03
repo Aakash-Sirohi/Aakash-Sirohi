@@ -1,0 +1,101 @@
+.entry {
+    background: wheat;
+    align-self:flex-end;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Hide the horizontal scrollbar */
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+}
+
+.typing-effect {
+    color: rgb(19, 223, 19);
+    text-align: center;
+    font-weight: 400;
+    font-size: x-large;
+}
+.school-typing-effect {
+    color: rgb(19, 223, 19);
+    text-align: center;
+    font-weight: 400;
+    font-size: x-large;
+}
+.college-typing-effect {
+    color: rgb(19, 223, 19);
+    text-align: center;
+    font-weight: 400;
+    font-size: x-large;
+}
+
+.beautiful-line{
+    color: rgb(19, 223, 19);
+}
+
+.school-info{
+    
+}
+.container{
+    flex: 1;
+    display: flex;
+}
+.map-div {
+    max-height: 100vh;
+    max-width: 50vw; /* Set the maximum width to 50% of the viewport width */
+    height:100vh; /* Set the height to 100% of the viewport height to cover the full screen vertically */
+    flex: 1;
+    background-color: rgb(0, 0, 0); /* Just for visualization, you can remove this */
+    
+}
+.map{
+    max-height: 100vh;
+    
+}
+
+.map-holder{
+    max-height: 100vh;
+}
+
+.info-div{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    max-width: 50vw;
+  
+}
+
+.my-info{
+    flex:1;
+    
+    margin: auto;
+}
+.school-info {
+    flex:1;
+    
+    margin: auto;
+}
+.college-info {
+    flex:1;
+}
+
+.skill-container{
+    flex: 1;
+    display: flex;
+}
+.skills{
+    flex: 1;
+}
+
+.skill-text{
+    color: rgb(19, 223, 19);
+    text-align: center;
+    font-weight: 400;
+    font-size: x-large;
+}
+
